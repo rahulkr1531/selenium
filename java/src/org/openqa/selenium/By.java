@@ -45,7 +45,7 @@ public abstract class By {
    * @return A By which locates elements by the value of the "id" attribute.
    */
   public static By id(String id) {
-    return new ById(id);
+    return new ById(id); //my edition
   }
 
   /**
